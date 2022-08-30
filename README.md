@@ -23,6 +23,7 @@ GET      |/comments/byProductIdInDateRange/{productId}| Verilen tarih aralıklar
 POST     |/comments{userId}/{productId}| Birkullanıcının bir ürüne yapmış olduğu yorumu kaydeder|integer($int64) (userId) integer($int64) (productId) <p/> Comment(Json body)
 
 
+
 ### Product Controller
 
 Method   |   Path   |   Description|Request Parameters
